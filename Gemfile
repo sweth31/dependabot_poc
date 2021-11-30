@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+git_source(:hp_instantink_git) { |repo_name| "git@github.azc.ext.hp.com:instantink/#{repo_name}.git" }
 
 ruby "2.6.3"
 gem "rails", "~> 6.1.3"
