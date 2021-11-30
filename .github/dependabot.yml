@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    open-pull-requests-limit: 10 #Default 5
+    directory: "/contents/"
+    schedule:
+      interval: "daily"
+    vendor: true    
